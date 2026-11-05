@@ -2,6 +2,10 @@
 
 把食譜轉為 2D 互動練習的靜態網站。本專案的核心是可重複的轉換流程，而非每道菜各寫一個網頁。
 
+## 網頁截圖
+
+![小鍋練習室首頁](docs/home-preview.png)
+
 ## 快速開始
 
 需要 Python 3（預覽）與 Node.js（資料驗證），網站本身不需安裝套件。
@@ -25,7 +29,7 @@ node --check dist/app.js
 
 ## 已部署網站
 
-https://little-kitchen-recipe-play-1105.subtlekiwi1.chatgpt.site
+https://hitchhikerbwy.github.io/little-kitchen/
 
 ## GitHub 與公開網站
 
