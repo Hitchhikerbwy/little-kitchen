@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+*.tar.gz
+*.zip
+.env*
+
+# Never publish local credentials or assignment source
+.openai/
+*.rtf
+*.pem
+*.key
+credentials*
+secrets*
