@@ -1,0 +1,103 @@
+{
+  "id": "new-recipe",
+  "title": "新食譜名稱",
+  "subtitle": "把熟悉的家常味，拆成一次一次的小練習。",
+  "emoji": "🍅",
+  "minutes": 15,
+  "servings": "2 人份",
+  "tags": [
+    "家常料理",
+    "平底鍋"
+  ],
+  "source": "填入真實來源與取用日期，或明示 AI 自編教學示例",
+  "ingredients": [
+    {
+      "id": "egg",
+      "name": "打散的雞蛋",
+      "amount": "3 顆",
+      "emoji": "🥚"
+    },
+    {
+      "id": "tomato",
+      "name": "切塊番茄",
+      "amount": "2 顆",
+      "emoji": "🍅"
+    },
+    {
+      "id": "oil",
+      "name": "食用油",
+      "amount": "1 大匙",
+      "emoji": "🫒"
+    },
+    {
+      "id": "salt",
+      "name": "鹽",
+      "amount": "少許",
+      "emoji": "🧂"
+    }
+  ],
+  "steps": [
+    {
+      "title": "準備鍋子",
+      "instruction": "食材先洗淨切好，蛋液打散。鍋中加入油。",
+      "action": "add",
+      "ingredientId": "oil",
+      "label": "加入食用油",
+      "visual": "🫒",
+      "tip": "這裡練習操作順序；實際烹調須由成人留意爐火。"
+    },
+    {
+      "title": "蛋液下鍋",
+      "instruction": "倒入蛋液，準備輕輕拌開。",
+      "action": "add",
+      "ingredientId": "egg",
+      "label": "加入蛋液",
+      "visual": "🥚",
+      "tip": "實際烹調時觀察蛋液狀態，不照遊戲秒數判斷。"
+    },
+    {
+      "title": "輕拌蛋液",
+      "instruction": "點擊三次，讓鍋鏟把蛋液拌開。",
+      "action": "mix",
+      "repetitions": 3,
+      "label": "輕輕翻拌",
+      "visual": "🥚 🥚",
+      "tip": "示例將流程簡化成同鍋料理。"
+    },
+    {
+      "title": "番茄登場",
+      "instruction": "加入切好的番茄與蛋一起拌炒。",
+      "action": "add",
+      "ingredientId": "tomato",
+      "label": "加入番茄",
+      "visual": "🍅 🥚 🍅",
+      "tip": "切菜是事前準備，網站不模擬刀具操作。"
+    },
+    {
+      "title": "調味與翻拌",
+      "instruction": "加入少許鹽，接著拌勻。",
+      "action": "add",
+      "ingredientId": "salt",
+      "label": "加入少許鹽",
+      "visual": "🍅 🥚",
+      "tip": "調味可依個人喜好調整。"
+    },
+    {
+      "title": "讓滋味融合",
+      "instruction": "模擬等待番茄變軟；實際時間依火力及食材大小調整。",
+      "action": "wait",
+      "seconds": 5,
+      "label": "開始模擬計時",
+      "visual": "🍅 🥚 🍅",
+      "tip": "5 秒是動畫時間，不是實際烹調時間；雞蛋應充分煮熟。"
+    },
+    {
+      "title": "完成，準備上桌",
+      "instruction": "將充分煮熟的料理盛入盤中。",
+      "action": "serve",
+      "label": "盛盤完成",
+      "visual": "🍅 🥚 🌿",
+      "tip": "回想一下：油、蛋液、番茄與調味的順序。"
+    }
+  ]
+}
